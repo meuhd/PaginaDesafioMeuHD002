@@ -15,7 +15,8 @@
 
 body {
     background-color: #28344C;
-    width:100%;
+  
+
 }
 
 .link-enigma {
@@ -89,6 +90,19 @@ h1{
 }
 
 @media (min-width: 1024px) {
+    .body{
+        width:100%;
+    }
+    .link-tree {
+        width: 40vw;
+    }
+}
+
+
+@media (min-width: 720px) {
+    .body{
+        width:100%;
+    }
     .link-tree {
         width: 40vw;
     }
