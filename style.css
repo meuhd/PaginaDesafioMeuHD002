@@ -14,24 +14,43 @@
 }
 
 body {
-    background-color: var(--bgcolor);
+    background-color: #28344C;
 }
 
-.link-tree {
+.link-enigma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.pergunta{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 90vw;
     margin: 40px auto;
     gap: 20px;
+    margin-top:-550px;
+    margin-left: -270px;
 }
-.link-tree img {
+.link-enigma img {
+    width: 1374px;
+    height: 876px;
+
+}
+.hackervermelho {
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
-.link-tree h1 {
-    font-size: 2.5rem;
+
+.link-enigma h1 {
+    font-size: 2.0rem;
+}
+
+h3{
+    color: #28344C;
 }
 
 
@@ -51,8 +70,18 @@ INPUT.ClasseIn {
     background-color: rgb(255, 0, 0);
     font-size: large;
     border: 0 none;
+    color: #000000;
 
 }
+
+#BtAdicionar0{
+    margin-top: 460px;
+    margin-left: 620px;
+    width: 400px;
+    font-size: 22px;
+}
+
+
 
 h1{
   color: red;  
